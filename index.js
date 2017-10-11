@@ -1,5 +1,12 @@
 function breakOut(array,changeValue,stopValue){
-  array.forEach()
+  function c(e){
+    if (e==stopValue){
+      break;
+    } else {
+      e=changeValue;
+    }
+  }
+  array.forEach(c);
 }
 function keepGoing(array,changeValue,skipValue){
   array.forEach()
