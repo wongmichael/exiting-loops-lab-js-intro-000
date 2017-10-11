@@ -6,7 +6,7 @@ function breakOut(array,changeValue,stopValue){
     else{
       e=changeValue
     }
-    })
+  });
   return array
 }
 function keepGoing(array,changeValue,skipValue){
