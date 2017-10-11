@@ -1,10 +1,11 @@
 function breakOut(array,changeValue,stopValue){
   array.forEach((e)=>{
-    if(e==stopValue)
+    if(e==stopValue){
       break
-    else
+    }
+    else{
       e=changeValue
-    end
+    }
     })
   return array
 }
